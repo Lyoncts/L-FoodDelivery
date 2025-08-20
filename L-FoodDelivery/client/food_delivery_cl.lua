@@ -212,9 +212,3 @@ AddEventHandler('onResourceStop', function(resource)
         print("^1[INFO]^0 L-foodelivery client script stopped.")
     end
 end)
-
--- AddEventHandler('onResourceStart', function(resource)
---     if resource == GetCurrentResourceName() then
---         print("^3[INFO]^0 L-foodelivery Job Script by Lcts (v3.0.0) started successfully.")
---     end
--- end)
