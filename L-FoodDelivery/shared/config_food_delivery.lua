@@ -3,7 +3,7 @@ Config_FoodDelivery = {}
 Config_FoodDelivery.UseOxInventory = false   -- true = ox_inventory, false = qb-inventory
 Config_FoodDelivery.UseOxTarget = false      -- true = ox_target, false = qb-target
 
-Config_FoodDelivery.DeliveryItem = "burgerkambingapek"
+Config_FoodDelivery.DeliveryItem = "burgerkambingapek"   -- change your delivery item as your please
 Config_FoodDelivery.DeliveryReward = math.random(550, 600)
 
 Config_FoodDelivery.DeliveryLocations = {
@@ -33,7 +33,7 @@ Config_FoodDelivery.VehicleSpawns = {
     vector4(99.43, 307.17, 110.02, 156.5)
 }
 
-Config_FoodDelivery.DeliveryVehicleModel = "aerox155"
+Config_FoodDelivery.DeliveryVehicleModel = "aerox155" -- change your vehicles as your please with correct spawn name
 
 Config_FoodDelivery.Clothes = {
     male = {
